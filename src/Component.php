@@ -3,8 +3,6 @@ namespace PoP\UserStateWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
-use PoP\UserStateWP\Config\ServiceConfiguration;
-use PoP\ComponentModel\Container\ContainerBuilderUtils;
 
 /**
  * Initialize component
@@ -21,19 +19,5 @@ class Component extends AbstractComponent
     {
         parent::init();
         self::initYAMLServices(dirname(__DIR__));
-        ServiceConfiguration::init();
-    }
-
-    /**
-     * Boot component
-     *
-     * @return void
-     */
-    public static function boot()
-    {
-        parent::boot();
-
-        // Initialize all classes
-        ContainerBuilderUtils::attachFieldResolversFromNamespace(__NAMESPACE__.'\\FieldResolvers', false);
     }
 }
