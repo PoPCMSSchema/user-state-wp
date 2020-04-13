@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 namespace PoP\UserStateWP\TypeDataResolvers;
 
 use PoP\UserState\TypeDataResolvers\UserStateTypeDataResolverInterface;
