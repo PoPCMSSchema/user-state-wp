@@ -3,7 +3,8 @@ namespace PoP\UserStateWP\TypeDataResolvers;
 
 use PoP\UserState\TypeDataResolvers\UserStateTypeDataResolverInterface;
 
-class UserStateTypeDataResolver implements UserStateTypeDataResolverInterface {
+class UserStateTypeDataResolver implements UserStateTypeDataResolverInterface
+{
 
     public function isUserLoggedIn(): bool
     {
@@ -17,5 +18,4 @@ class UserStateTypeDataResolver implements UserStateTypeDataResolverInterface {
     {
         return \get_current_user_id();
     }
-
 }
