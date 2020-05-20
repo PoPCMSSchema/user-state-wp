@@ -1,2 +1,2 @@
 <?php
-\PoP\UserStateWP\Component::init();
+//\PoP\UserStateWP\Component::initialize();
