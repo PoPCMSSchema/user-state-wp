@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/user-state-wp
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\UserStateWP\Component::initialize();
 ```
--->
 
 ## Standards
 
