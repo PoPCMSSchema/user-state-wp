@@ -25,7 +25,9 @@ composer require getpop/user-state-wp
 Initialize the component:
 
 ``` php
-\PoP\UserStateWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\UserStateWP\Component::class,
+]);
 ```
 
 ## Standards
