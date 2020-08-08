@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\UserStateWP;
+namespace PoPSchema\UserStateWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
@@ -18,8 +18,8 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\UserState\Component::class,
-            \PoP\UsersWP\Component::class,
+            \PoPSchema\UserState\Component::class,
+            \PoPSchema\UsersWP\Component::class,
         ];
     }
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PoP\UserStateWP\TypeDataResolvers;
+namespace PoPSchema\UserStateWP\TypeDataResolvers;
 
-use PoP\UserState\TypeDataResolvers\UserStateTypeDataResolverInterface;
+use PoPSchema\UserState\TypeDataResolvers\UserStateTypeDataResolverInterface;
 
 class UserStateTypeDataResolver implements UserStateTypeDataResolverInterface
 {

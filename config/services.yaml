@@ -1,4 +1,4 @@
 services:
     user_state_type_data_resolver:
-        class: \PoP\UserStateWP\TypeDataResolvers\UserStateTypeDataResolver
+        class: \PoPSchema\UserStateWP\TypeDataResolvers\UserStateTypeDataResolver
         public: true
